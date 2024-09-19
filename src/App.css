@@ -1,19 +1,51 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
-    margin: 0;
+    margin: 45px;
     padding: 0;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
+
+}
+
+.task-container {
+    margin-bottom: 25px;
 }
 
 .task-list-container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 700px;
-    width: 100%;
-    text-align: center;
-    box-sizing: border-box;
-    margin-left: 390px;
+    width: 50%;
+    margin: 0 auto;
 }
+
+.add-task-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.add-task-input {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    width: 86%;
+}
+
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    /* Граница вокруг блока */
+    border-radius: 8px;
+    padding: 10px;
+    background-color: white;
+}
+
